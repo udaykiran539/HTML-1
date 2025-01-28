@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!-- saved from url=(0071)file:///C:/Users/VENKATANAGA/OneDrive/Desktop/html%201/TURT1/INDEX.HTML -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Application</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+    #quiz-container {
+      max-width: 600px;
+      margin: 50px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      color: #333;
+    }
+    #ques {
+      margin-bottom: 20px;
+    }
+    #opt {
+      text-align: left;
+    }
+    #opt div {
+      margin: 10px 0;
+    }
+    #btn {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    #btn:hover {
+      background-color: #45a049;
+    }
+    #score {
+      margin-top: 20px;
+      font-size: 18px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div id="quiz-container">
+    <h1>Quiz Application</h1>
+    <div id="ques">Who is depicted on the US hundred dollar bill?</div>
+    <div id="opt"><div><input type="radio" name="answer" value="Abraham Lincoln"><label>Abraham Lincoln</label></div><div><input type="radio" name="answer" value="George Washington"><label>George Washington</label></div><div><input type="radio" name="answer" value="Benjamin Franklin"><label>Benjamin Franklin</label></div><div><input type="radio" name="answer" value="Thomas Jefferson"><label>Thomas Jefferson</label></div></div>
+    <button id="btn" onclick="checkAns()">Next</button>
+    <div id="score"></div>
+  </div>
+
+  <script src="./INDEX_files/script.js.download"></script>
+
+
+</body></html>
